@@ -1,0 +1,382 @@
+body {
+    padding-top: 650px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.site-header {
+    background-image: linear-gradient(to top, transparent, rgba(0, 0, 0, .5) 1%);
+    background: #ccc url("Photo Album/headerimage.jpeg");
+    background-blend-mode: luminosity;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding-top: 120px;
+    font-family: "Oswald", sans-serif;
+}
+
+.site-header h1 {
+    font-size: 8vw;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.site-header span {
+    color: #ccc;
+    display: inline-block;
+    font-size: 3vw;
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
+}
+
+.site-header .EP {
+    font-size: 2vw;
+    background-color: #c20651;
+    color: #fff;
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.main-content,
+.main-nav {
+    position: relative;
+}
+
+.main-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    height: 50px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .25);
+    z-index: 100;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: -60px;
+}
+
+.nav-fixed,
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-nav a {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    padding: 10px 0;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.main-nav a.chosen {
+    border-color: #ccc;
+}
+
+.main-content {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #f7f7f7;
+}
+
+.main-content h2,
+.main-content h3,
+.main-content p {
+    font-family: "Oswald", sans-serif;
+}
+
+.main-content h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+}
+
+.main-content h3 {
+    font-size: 25px;
+    color: rgba(0, 0, 0, .76);
+}
+
+.main-content p,
+.main-content li {
+    color: rgba(0, 0, 0, .76);
+    line-height: 1.4;
+}
+
+.page-section {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section .insta {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+}
+
+.radio {
+    width: 50%;
+    height: 250px;
+    padding: 1px 1px;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+}
+
+.members {
+    width: 100%;
+    height: 440px;
+    padding: 5px 1px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "Oswald", sans-serif;
+}
+
+.findus {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+.video {
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.openthecasket {
+    width: 100%;
+    height: 440px;
+    padding: 1px 1px;
+    display: inline-block;
+    font-weight: 200;
+}
+
+
+/* footer */
+
+contact {
+    font-family: "Oswald", sans-serif;
+    font-size: 1vw;
+    color: #ccc;
+    margin-top: 30px;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer_container {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer_box {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.form_box h2 {
+    font-weight: 100;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    margin-bottom: .7em;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+
+.address p {
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+}
+
+.address a {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+form input,
+form textarea {
+    font-family: "Oswald", sans-serif;
+    width: 100%;
+    min-height: 2em;
+    border: none;
+    outline: none;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+form button {
+    width: 30%;
+    height: 2.5em;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+.author {
+    background-color: #fff;
+}
+
+.author p {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.Colored {
+    color: #ccc
+}
+
+
+/* The container for radio form */
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a pink background */
+
+.container input:checked~.checkmark {
+    background-color: #c20651;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-sizing: border-box;
+}
+
+
+/* IMAGES */
+
+.row {
+    display: flex;
+}
+
+
+/*  Create three equal columns that sits next to each other */
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+/* table */
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: "Oswald", sans-serif;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
